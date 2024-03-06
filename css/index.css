@@ -68,11 +68,16 @@ footer {
 .qr-description {
     color: var(--grey);
     font-size: var(--text-body);
-    letter-spacing: .19px;
     padding: 0 1rem;
 }
 
 .attribution {
     font-size: 11px;
     padding-bottom: 1rem;
+}
+
+@media (min-width: 431px) {
+    .qr-heading {
+        font-weight: 400;
+    }
 }
