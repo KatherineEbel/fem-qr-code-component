@@ -33,6 +33,9 @@ main {
 }
 
 footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: auto;
 }
 
@@ -63,6 +66,7 @@ footer {
 .qr-heading {
     font-size: var(--text-heading);
     color: var(--dark-blue);
+    margin-top: 1rem;
 }
 
 .qr-description {
@@ -77,6 +81,11 @@ footer {
 }
 
 @media (min-width: 431px) {
+    footer {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
     .qr-heading {
         font-weight: 400;
     }
